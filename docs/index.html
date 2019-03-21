@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,25 +11,28 @@
 	</head>
 
 	<body>
-		<nav>
+		<!--<nav>
 			<a href="#/">EN</a>
 			<a href="#/zh-cn/">中文</a>
-		</nav>
+		</nav>-->
 		<div id="app">加载中...</div>
 		<script>
 			window.$docsify = {
 				//  	 el: '#main',
-				name: '',
+				homepage: 'home.md',//修改入口文件
+				name: 'van-demo',
+				//themeColor: '#3F51B5',//主体颜色
 				repo: '',
 				loadSidebar: true,
+				//autoHeader: true,
 				alias: {
 					'/.*/_sidebar.md': '/_sidebar.md',
 					'/.*/_navbar.md': '/_navbar.md'
 				},
 				subMaxLevel: 2,
-				loadNavbar: true, //导航栏
-				//    coverpage: true,//封面
-				coverpage: ['/', '/zh-cn/'], //多封面
+				loadNavbar: false, //导航栏
+				//coverpage: true,//封面
+				//coverpage: ['/', '/zh-cn/'], //多封面
 				repo: 'https://github.com/vanessamf', // GitHub Corner 挂件。
 			}
 		</script>

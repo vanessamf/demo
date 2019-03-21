@@ -1,5 +1,5 @@
 
-# zh-cn {docsify-ignore-all}
+# sub-text
 ## wwe
 ### dsdfs
 > An awesome project.
