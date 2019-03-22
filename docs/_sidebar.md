@@ -8,3 +8,7 @@
 - test
 	* [text](text/)
 	* [sub-text](text/sub-text/)
+	
+- [自定义](custom/)	
+- [关于](about/)	
+- [感谢](Thanks/)
