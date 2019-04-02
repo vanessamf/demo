@@ -1,1 +1,264 @@
 /*自定义样式*/
+
+
+/*note*/
+
+.note {
+	position: relative;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: initial;
+	border-left: 3px solid #eee;
+	background-color: #f9f9f9;
+	border-radius: 3px;
+}
+
+.note.default {
+	background-color: #f7f7f7;
+	border-left-color: #777;
+}
+
+.note.primary {
+	background-color: #f5f0fa;
+	border-left-color: #6f42c1;
+}
+
+.note.info {
+	background-color: #eef7fa;
+	border-left-color: #428bca;
+}
+
+.note.success {
+	background-color: #eff8f0;
+	border-left-color: #5cb85c;
+}
+
+.note.warning {
+	background-color: #fdf8ea;
+	border-left-color: #f0ad4e;
+}
+
+.note.danger {
+	background-color: #fcf1f2;
+	border-left-color: #d9534f;
+}
+
+.note p {
+	margin: 0;
+}
+
+.note:not(.no-icon) {
+	padding-left: 45px;
+}
+
+.note:not(.no-icon):before {
+	position: absolute;
+	font-family: 'FontAwesome';
+	font-size: larger;
+	top: 20px;
+	left: 15px;
+}
+
+.note.default:not(.no-icon):before {
+	content: "\f0a9";
+	color: #777;
+}
+
+.note.primary:not(.no-icon):before {
+	content: "\f055";
+	color: #6f42c1;
+}
+
+.note.info:not(.no-icon):before {
+	content: "\f05a";
+	color: #428bca;
+}
+
+.note.success:not(.no-icon):before {
+	content: "\f058";
+	color: #5cb85c;
+}
+
+.note.warning:not(.no-icon):before {
+	content: "\f06a";
+	color: #f0ad4e;
+}
+
+.note.danger:not(.no-icon):before {
+	content: "\f056";
+	color: #d9534f;
+}
+
+
+/*label*/
+
+.label {
+	display: inline;
+	white-space: nowrap;
+	padding: 2px 5px;
+	color: #fff
+}
+
+.label.default {
+	background-color: #777;
+}
+
+.label.primary {
+	background-color: #6f42c1;
+}
+
+.label.info {
+	background-color: #428bca;
+}
+
+.label.success {
+	background-color: #5cb85c;
+}
+
+.label.warning {
+	background-color: #f0ad4e;
+}
+
+.label.danger {
+	background-color: #d9534f;
+}
+
+.label.com {
+	background-color: #5bc0de;
+}
+
+
+/*button*/
+
+.btn {
+	position: relative;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.1;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-image: none;
+	vertical-align: middle;
+	margin: 10px;
+	color: #fff !important;
+	font-weight: 400 !important;
+	text-decoration: none;
+}
+
+
+/*.btn:not(.no-icon) {
+    padding-left: 40px;
+}
+.btn:not(.no-icon):before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: larger;
+    left:20px;
+}*/
+
+
+/*.btn-primary:not(.no-icon):before {
+    content: "\f0a9";
+    color: #777;
+}*/
+
+.btn.btn-default {
+	color: #333 !important;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover {
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+.btn-primary {
+	background-color: #6f42c1;
+	border-color: #532f94;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+	background-color: #6138ad;
+	border-color: #462484;
+}
+
+.btn-info {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.btn-info:active,
+.btn-info:focus,
+.btn-info:hover {
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+.btn-success {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover {
+	color: #fff;
+	background-color: #449d44;
+	border-color: #398439;
+}
+
+.btn-warning {
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:hover {
+	color: #fff;
+	background-color: #ec971f;
+	border-color: #d58512;
+}
+
+.btn-danger {
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:hover {
+	color: #fff;
+	background-color: #c9302c;
+	border-color: #ac2925;
+}
+
+.btn-com {
+	background-color: #5bc0de;
+	border-color: #46b8da;
+}
+
+.btn-com:active,
+.btn-com:focus,
+.btn-com:hover {
+	background-color: #31b0d5;
+	border-color: #269abc;
+}
+
+.btn:active {
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}

@@ -1,0 +1,156 @@
+/*清除浮动代码*/
+   .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+   .clearfloat{zoom:1}
+.gallery-section {
+	/*background: rgba(249, 255, 89, 0.5);*/
+	background: rgba(66,185,131,.1)
+}
+
+.gallery-section .container {
+	/*padding: 10% 0;*/
+	width:100%;
+	padding:15px 15px;
+}
+
+.gallery-section .item-container {
+	width:100%;
+	float: left;
+	padding:15px 15px;
+}
+
+@media (min-width: 992px){
+	.gallery-section .item-container{
+	    width: 25%;
+	   /*width: 33.3%;*/
+	}
+}
+@media (min-width: 768px) and (max-width:992px) {
+	.gallery-section .item-container {
+		width: 33.3%;
+	}
+}
+.gallery-section .item-wrapper {
+	border: 1px solid #FFF;
+	padding: 5px;
+	/*margin-top: 30px;*/
+	/*height:250px;*/
+}
+
+.gallery-section .item-image {
+	position: relative;
+	overflow: hidden;
+	/*width: 50%;*/
+}
+
+.gallery-section .item-image:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+	/*这里的 padding-top 是相对于元素的 width 的。*/
+}
+
+.gallery-section .item-image img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/*方式一*/
+/*.item-button{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    transform: scale(0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    background-color: rgba(249,255,89,0.3);
+}
+
+.item-wrapper:hover  .item-button {
+-webkit-transform: scale(1);
+transform: scale(1);
+}*/
+
+.gallery-section .item-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	-ms-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+	/*background-color: rgb(249, 255, 89);*/
+	background-color: rgb(0,0,0);
+}
+
+.gallery-section .item-wrapper:hover .item-overlay {
+	opacity: 0.3;
+	/*background-color:rgba(249,255,89,0.3);*/
+}
+
+.gallery-section .item-button {
+	text-align: center;
+	position: absolute;
+	/*left: 25%;
+	right: 25%;*/
+	width:100%;
+	left:0;
+	bottom: 0;
+	-webkit-transform: scale(0) translateX(-50%);
+	-moz-transform: scale(0) translateX(-50%);
+	-o-transform: scale(0) translateX(-50%);
+	-ms-transform: scale(0) translateX(-50%);
+	transform: scale(0);
+	-webkit-transition: transform 0.7s ease;
+	-moz-transition: transform 0.7s ease;
+	-o-transition: transform 0.7s ease;
+	-ms-transition: transform 0.7s ease;
+	transition: transform 0.7s ease;
+}
+
+.gallery-section .item-wrapper:hover .item-button {
+	-webkit-transform: scale(1) translateX(-50%);
+	-moz-transform: scale(1) translateX(-50%);
+	-o-transform: scale(1) translateX(-50%);
+	-ms-transform: scale(1) translateX(-50%);
+	transform: scale(1) ;
+}
+
+.gallery-section .item-button a {
+	display: block;
+	background: rgba(250, 142, 214, 0.6);
+	/*text-transform: uppercase;*/
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding:8px 15px;
+	color:#fff;
+}
+
+.gallery-section .item-button a:focus {
+	color: #fff;
+}
+
+.gallery-section .item-button a:hover {
+	background: #FF8AD8;
+	color: #fff;
+}
+
+.gallery-section .item-button a:focus,
+.gallery-section .item-button a:link,
+.gallery-section .item-button a:visited,
+.gallery-section .item-button a:hover,
+.gallery-section .item-button a:active {
+	/*outline: 0;*/
+	/*color:#fff;*/
+	text-decoration: none;
+}
