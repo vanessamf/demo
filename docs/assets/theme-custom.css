@@ -1,5 +1,7 @@
 /*自定义样式*/
-
+.sidebar li>p.active>a{
+    color: var(--theme-color,#42b983);
+}
 
 /*note*/
 
@@ -261,4 +263,33 @@
 	outline: 0;
 	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+/*数字块*/
+span.inline-toc {
+    display: inline-block;
+    border-radius: 80% 100% 90% 20%;
+    /*background-color: #e3f2fd;*/
+    background-color:var(--theme-color,#42b983);
+    /*color: #555;*/
+    color:#fff;
+    /* padding: 0.05em 0.4em; */
+    /*padding: 2px 8px;*/
+     padding: 0px 6px;
+    margin: 2px 5px 2px 0px;
+    line-height: 1.5;
+}
+
+span.inline-toc2 {
+    display: inline-block;
+    border-radius: 80% 100% 90% 20%;
+    /*background-color: #e3f2fd;*/
+    background-color:var(--theme-color,#42b983);
+    /*color: #555;*/
+    color:#fff;
+    /* padding: 0.05em 0.4em; */
+    /*padding: 2px 8px;*/
+     padding: 0px 6px;
+    margin: 2px 5px 2px 0px;
+    line-height: 1.5;
 }

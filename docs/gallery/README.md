@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-		<div class=" item-container">
+		<div class="item-container">
 			<div class="item-wrapper">
 				<div class="item-image">
 					<img src="images/new.jpeg" alt="" class=""/>

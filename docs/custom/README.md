@@ -29,33 +29,48 @@
 <span class="label com">com哈哈哈</span>
 
 ### button
+
+```markdown
 <a class="btn btn-default" href="http://www.baidu.com" role="button" target="_blank">
 下载插件
 </a>
+```
+
+<a class="btn btn-default" href="http://www.baidu.com" role="button" target="_blank">
+下载插件btn-default
+</a>
+
 <a class="btn btn-primary" href="http://www.baidu.com" role="button" target="_blank">
-下载插件
+下载插件btn-primary
 </a>
 <a class="btn btn-info" href="http://www.baidu.com" role="button" target="_blank">
-<i class="fa fa-eye"></i> 查看演示
+<i class="fa fa-eye"></i> 查看演示btn-info
 </a>
 <a class="btn btn-info" href="http://www.baidu.com" role="button" target="_blank">
- 查看演示
+ 查看演示btn-info
 </a>
 <a class="btn btn-success" href="http://www.baidu.com" role="button" target="_blank">
-<i class="fa fa-download"></i> 下载插件
+<i class="fa fa-download"></i> 下载插件btn-success
 </a>
 <a class="btn btn-success" href="http://www.baidu.com" role="button" target="_blank">
-下载插件
+下载插件btn-success
 </a>
 <a class="btn btn-warning" href="http://www.baidu.com" role="button" target="_blank">
-下载插件
+下载插件btn-warning
 </a>
 <a class="btn btn-danger" href="http://www.baidu.com" role="button" target="_blank">
-下载插件
+下载插件btn-danger
 </a>
 <a class="btn btn-com" href="http://www.baidu.com" role="button" target="_blank">
-下载插件
+下载插件btn-com
 </a>
+
+### 数字块
+
+<span class="inline-toc">1.</span>文字
+```markdown
+<span class="inline-toc">1.</span>文字
+```
 
 ## docsify扩展Markdown语法
 ### 强调内容

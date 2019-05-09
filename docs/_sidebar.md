@@ -1,10 +1,28 @@
 - 初始页
 	* [初始页](/)
-- CSS
+- CSS 
 	* [立体按钮](documents/CSS/solid-button)
+	* [单选/复选框](documents/CSS/checkbox)
+	* [圣杯布局](documents/CSS/holy-grail-layout)
+	* [双飞翼布局](documents/CSS/double-wing-layout)
+	* [绝对定位布局](documents/CSS/absolute-layout)
+	* [flex布局](documents/CSS/flex-layout)
+- CSS动画
+    * [浮动](documents/CSS-animation/fudong)
+- 小项目
+    * [轮播图一](documents/demo/carousel)
+    * [轮播图二](documents/demo/seamless-carousel)
+    * [回到顶部](documents/demo/toTop)
+    * [菜单](documents/demo/nav)
+    * [相册](documents/demo/gallery)
+    * [懒加载](documents/demo/lazyload)
+    * [点菜](documents/demo/menu)
+    * [五星评分](documents/demo/star)
+    * [五星评分二](documents/demo/star2)
 - 项目列表
 	* [项目列表](gallery/)
 		
 - [自定义](custom/)
 - [关于](about/)	
+- [联系我](contact/)  
 - [感谢](Thanks/)
