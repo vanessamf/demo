@@ -19,6 +19,7 @@
     * [点菜](documents/demo/menu)
     * [五星评分](documents/demo/star)
     * [五星评分二](documents/demo/star2)
+    * [安全检测](documents/demo/detection)
 - 项目列表
 	* [项目列表](gallery/)
 		
