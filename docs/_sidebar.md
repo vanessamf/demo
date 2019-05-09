@@ -20,6 +20,7 @@
     * [五星评分](documents/demo/star)
     * [五星评分二](documents/demo/star2)
     * [安全检测](documents/demo/detection)
+    * [长按弹出](documents/demo/chat)
 - 项目列表
 	* [项目列表](gallery/)
 		
